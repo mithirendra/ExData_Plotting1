@@ -27,7 +27,9 @@ png('plot2.png')
 # Plot graph
 plot(df$Date, df$Global_active_power, type = "l",
      ylab = "Global Active Power (kilowatts)",
-     xlab = "", xaxt = "n")
+     xlab = "", 
+     main = "Global Active Power Trend",
+     xaxt = "n")
 axis.POSIXct(1, format = "%a")
 
 # Close graphic device

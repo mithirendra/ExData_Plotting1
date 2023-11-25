@@ -72,5 +72,7 @@ plot(df$Date, df$Global_reactive_power, type = "l",
      xlab = "datetime", xaxt = "n")
 axis.POSIXct(1, format = "%a")
 
+mtext("4 Trend Graphs combined", side = 3, line = - 2, outer = TRUE)
+
 # Close graphic device
 dev.off()

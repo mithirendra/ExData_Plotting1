@@ -30,6 +30,7 @@ png('plot3.png')
 # Plot graph
 plot(df$Date, df$Sub_metering_1, type = "l",
          ylab = "Energy sub metering",
+         main = "Energy Sub Metering Trend",
          xlab = "", xaxt = "n")
 axis.POSIXct(1, format = "%a")
 lines(df$Date, df$Sub_metering_2, col="red")
